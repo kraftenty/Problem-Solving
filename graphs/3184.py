@@ -7,7 +7,7 @@ graph=[]
 for _ in range(R):
     graph.append(list(input().rstrip()))
 
-#자상하좌우 bfs_dfs
+#자상하좌우 graphs
 dx=[0,0,0,-1,1]
 dy=[0,1,-1,0,0]
 def bfs(yStart, xStart):
